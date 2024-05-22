@@ -4,7 +4,7 @@ services:
   playwright-service:
     build: apps/playwright-service
     environment:
-      - PORT=3000
+      - PORT=3005
     networks:
       - backend
   
